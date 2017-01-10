@@ -1,0 +1,39 @@
+@font-face{
+	font-family: rubik;
+	src: url("Rubik-Regular.ttf");
+}
+
+@font-face{
+	font-family : rubikLight;
+	src:  url("Rubik-Light.ttf");
+}
+
+body{
+	margin: 0;
+	font-family : rubikLight, courier, sans-serif;
+}
+
+h1,
+p{
+    color: white;
+    text-align: center;
+    display: block;
+    background-color: dimgray;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    border: 1px solid white;
+}
+
+h1{
+    width: 50%;
+    height: 10%;
+    margin-top: 10%;
+}
+
+p{
+    width: 20%;
+    height: 20%;
+    margin-top: 1%;
+}
