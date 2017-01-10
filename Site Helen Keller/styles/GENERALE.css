@@ -1,0 +1,833 @@
+body{
+	background-color: silver;
+}
+	
+#intro{
+	min-height : 15px;
+    background-color: white;
+    border-radius:2px;
+    padding : 20px;
+}
+
+article #intro h2,
+article #intro p{
+	color : dimgrey;
+
+}
+
+article #intro h2{
+	font-size : 180%;
+}
+
+article #intro p{
+    margin: 0;;
+	text-align : justify;
+    margin-top:20px;
+}
+
+#intro #citation p{
+	color : white;
+	display : block;
+	width : 106px;
+	min-height :15px;
+	background-color : grey;
+	border-radius : 5px;
+	text-align : center;
+	padding : 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+#citation{
+    float:left;
+    margin-left: 40px;
+}
+
+#portrait{
+    float:left;
+    border: 1px solid dimgrey;
+    margin-top: 20px;
+}
+
+aside #conteneur_aside{
+    padding-bottom: 5px;
+	width : 182px;
+	min-height: 130px;
+	background-color : #ffd1ad;
+}
+
+#conteneur_aside h3{
+	margin : 0;
+	padding : 0;
+	color : white;
+	background-color : #f9ae74;
+	width : 182px;
+	height : 55px;
+	text-align : center;
+	line-height : 58px;
+	font-weight : normal;
+	font-size : 150%
+}
+
+#article1{
+	width : 172px;
+	height : 468px;
+	background-color : white;
+	margin-left : 5px;
+	margin-top : 5px;
+	padding-top : 15px;
+}
+
+#article1 h5,
+#article1 p{
+	margin : 0;
+	margin-left : 10px;
+	margin-right : 10px;
+	font-size : 80%;
+}
+
+#article1 p{
+	margin-top : 10px;
+}
+
+#conteneur_aside #article1 img{
+	width : 165px;
+	height : auto;
+	margin-left : 4px;
+	margin-top : 10px;
+}
+
+#article2{
+	width : 172px;
+	height : 448px;
+	background-color : white;
+	margin-left : 5px;
+	margin-top : 15px;
+	padding-top : 15px;
+    margin-bottom: 5px;
+}
+
+#article2 h5,
+#article2 p{
+	margin : 0;
+	margin-left : 10px;
+	margin-right : 10px;
+	font-size : 80%;
+}
+
+#article2 p{
+	margin-top : 10px;
+}
+
+#conteneur_aside #article2 img{
+	width : 165px;
+	height : auto;
+	margin-left : 4px;
+	margin-top : 10px;
+}
+
+#bouton_don h3{
+	color : white;
+	background-color : #eee008;
+	width : 176px;
+	height : 82px;
+	border : 3px solid white;
+	border-radius : 5px;
+	line-height : 80px;
+	margin : 0;
+	text-align :center;
+	font-size : 250%;
+	font-weight : bold;
+	margin-bottom : 50px;
+	margin-right : 20px;
+	
+}
+
+#col2 #conteneur_col2{
+	width : 182px;
+	min-height : 100px;
+	background-color : #acfae7;
+    padding-bottom: 10px;
+}
+
+#conteneur_col2 h3{
+	margin : 0;
+	padding : 0;
+	color : white;
+	background-color : #59c9ae;
+	height : 70px;
+	text-align : center;
+	font-weight : normal;
+	font-size : 150%;
+	padding-top :10px;
+}
+
+#histoire1{
+	height : 444px;
+	background-color : white;
+	margin: 5px;
+	padding-top : 15px;
+}
+
+#histoire1 h5,
+#histoire1 p{
+	margin : 0;
+	margin-left : 10px;
+	margin-right : 10px;
+	font-size : 80%;
+}
+
+#histoire1 p{
+	margin-top : 10px;
+}
+
+#conteneur_col2 #histoire1 img{
+    width:95%;
+	height : 125px;
+    padding:5px;
+}
+
+#histoire2{
+    margin: 5px;
+	min-height: 100px;
+	background-color : white;
+	margin-top : 15px;
+	padding-top : 15px;
+    
+}
+
+#histoire2 h5,
+#histoire2 p{
+	margin : 0;
+	margin-left : 10px;
+	margin-right : 10px;
+	font-size : 80%;
+}
+
+#histoire2 p{
+	margin-top : 10px;
+}
+
+#conteneur_col2 #histoire2 img{
+	width : 95%;
+	height : auto;
+	margin: 5px;
+    margin-bottom: 0;
+}
+
+
+#titrep2{
+	color : white;
+	background-color : black;
+	width : 400px;
+	min-height :50px;
+	opacity : 0.90;
+	text-align : center;
+	line-height : 60px;
+	opacity : 0.8;
+	border : 1px solid white;
+	margin-left : 10px;
+	margin : 0;
+	position : relative;
+	top : -450px;	
+}
+
+#profil{
+	height : 208px;
+	float :left;
+    margin-top: 20px;
+    border: 1px solid dimgrey;
+}
+
+
+
+
+#paragraphe1{
+	width : 306px;
+	min-height : 180px;
+	background-color : black;
+	margin-left : 20px;
+	margin-top : 55px;
+	position : relative;
+	left : -20px;
+	opacity : 0.80;
+	border : 1px solid white;
+	float : left;
+	z-index : 2;
+	text-align : justify;
+}
+
+#paragraphe1 p{
+	color : white;
+	max-width : 90%;
+	font-weight : normal;
+	
+}
+
+#paragraphe1 h3{
+	font-size : 180%;
+	color : white;
+	font-weight : normal;
+	margin-top : 15px;
+}
+
+#img_p2{
+	clear : both;
+	margin-left : 20px;
+	position : relative;
+	top : -50px;
+	z-index : 1;
+	width : 250px;
+	height : auto;
+    border: 1px solid dimgrey;
+}
+
+
+article h2,
+h3{
+	margin : 0;
+    color: dimgray;
+    font-size: 180%;
+}
+
+#boite_para1 p{
+    display: block;
+    color:dimgray;
+    text-align: justify;
+    margin-top: 20px;
+    float:left;
+    width: 75%;
+    margin-right: 20px;
+}
+
+#dessin_arbre{
+	width : 150px;
+	height : auto;
+	float : left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid dimgrey;
+}
+
+#dessin_hk{
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    border: 1px solid dimgrey;
+}
+
+#paragraphe2{
+	width : 285px;
+	min-height : 180px;
+	background-color : black;
+	position : relative;
+	left : -30px;
+	opacity : 0.80;
+	border : 1px solid white;
+	float : left;
+	z-index : 2;
+	float : left;
+	margin-top : 30px;
+}
+
+#paragraphe2 p{
+	color : white;
+	max-width : 90%;
+	font-weight : normal;
+	text-align : justify;
+	margin : 15px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+#paragraphe2 h3{
+	font-size : 180%;
+	color : white;
+	font-weight : normal;
+	margin-top : 15px;
+	margin-left : 15px;
+}
+
+
+#boite_para1{
+    min-height : 80px;
+    background-color: white;
+    border-radius:2px;
+    padding : 20px;
+
+}
+
+#boite_para2{
+	min-width : 10px;
+	min-height: 80px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#boite_para2 p{
+    color:dimgray;
+    text-align: justify;
+}
+
+#paraSpe{
+    width: 60%;
+    display: block;
+    float: left;
+}
+
+#boite_para2 h3{
+    margin-bottom: 20px;
+}
+
+
+#paragraphe3{
+	width : 300px;
+	min-height : 180px;
+	background-color : black;
+	position : relative;
+	float : left;	
+}
+
+#paragraphe3 p{
+	color : white;
+	max-width : 90%;
+	font-weight : normal;
+	text-align : justify;
+	margin : 15px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+#paragraphe3 h3{
+	font-size : 180%;
+	color : white;
+	font-weight : normal;
+	margin-top : 15px;
+	margin-left : 15px;
+}
+
+main p{
+    margin: 0;
+}
+
+#boite_para3{
+    min-width: 10px;
+    min-height: 80px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#boite_para3 p{
+    color:dimgray;
+    text-align: justify;
+    display: block;
+    width: 60%;
+    min-height: 10px;
+    float: left;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+#boite_para3 #citation_enfance{
+    color: white;
+    display: block;
+    width: 126px;
+    min-height: 15px;
+    background-color: grey;
+    border-radius: 5px;
+    text-align: justify;
+    text-align: center;
+    padding: 15px;
+    margin-right: 20px;
+
+}
+
+#dessin_hk2{
+	width :100px;
+	height : auto;
+	float : left;
+    margin-left: 20px;
+    border: 1px solid dimgrey;
+}
+
+#citation_enfance p{
+	color: white;
+    display: block;
+    width: 106px;
+    min-height: 15px;
+    background-color: grey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+	
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#educ_para1{
+    min-height: 80px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#educ_para1 p{
+    width: 70%;
+    color:dimgray;
+    text-align: justify;
+    margin-left: 20px;
+    display:block;
+    float: left;
+}
+
+#educ_para1 h3{
+    margin-bottom: 20px;
+}
+
+#educ_img1{
+	float : left;
+	width : 120px;
+	height : auto;
+    margin-top: 20px;
+    border: 1px solid dimgrey;
+}
+
+
+
+#educ_img2{
+	float : right;
+	width : 230px;
+	height : auto;
+    margin-left: 20px;
+    border: 1px solid dimgrey;
+}
+
+#educ_para2 p{
+    color: dimgray;
+    text-align: justify;
+    display: block;
+}
+
+#educ_para2{
+	min-height: 80px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+#educ_para3{
+    min-height: 80px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: 20px;
+    max-height: 442px;
+}
+
+#educ_para3 h3{
+    margin-bottom: 20px;
+}
+
+#educ_para3 p{
+    color:dimgray;
+    text-align: justify;
+    display: block;
+}
+
+#educ_img3{
+	width : 50px;
+	height : auto;
+	margin-top : 10px;
+    position: relative;
+    top: -120px;
+    margin-left: 20px;
+}
+
+#educ_para3 #paraSpeBloc3{
+    display: block;
+    float: left;
+    width: 63%;
+}
+
+#educ_para3 #educ_citation{
+    color: white;
+    display: block;
+    width: 126px;
+    min-height: 15px;
+    background-color: grey;
+    border-radius: 5px;
+    text-align: justify;
+    text-align: center;
+    padding: 15px;
+    margin-right: 20px;
+    float: left;
+    margin-top: 40px;
+}
+
+
+
+/*  debut page sa vie   */
+
+
+#vie_para1{
+	min-height: 80px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+    min-height: 402px;
+    margin-bottom: 20px;
+	
+}
+
+#vie_para2{
+	min-height: 80px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#vie_para1 img{
+	width : 100px;
+	height : auto;
+    border: 1px solid dimgrey;
+	
+}
+
+#vie_para1 h3{
+	margin-bottom: 20px;
+}
+
+#vie_para1 p{
+	margin-top: 20px;
+    text-align: justify;
+    color:dimgray;
+}
+
+#vie_photo_1{
+    margin-left : 5%;
+}
+
+#vie_photo_2,
+#vie_photo_3,
+#vie_photo_4{
+	margin-left : 5px;
+    border: 1px solid dimgrey;
+}
+
+#vie_para2 img{
+	width : 100px;
+	height : auto;
+    margin-top: 20px;
+	float : left;
+    border: 1px solid dimgrey;
+}
+
+#vie_para2 p{
+    width: 73%;
+	color:dimgray;
+    display: block;
+    float: left;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+#vie_para3{
+	min-height: 80px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#vie_para3 h3{
+    margin-bottom: 20px;
+}
+
+#vie_para3 p{
+    color: dimgray;
+    text-align: justify;
+}
+
+#vie_photo_5{
+	width : 150px;
+	height : auto;
+	float : left;
+	margin-left: 100px;
+    border: 1px solid dimgrey;
+}
+
+#vie_photo_6{
+	width : 100%;
+	height : auto;
+    margin-bottom: 20px;
+    border: 1px solid dimgrey;
+}
+
+#vie_para4{
+	min-height: 80px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+#vie_para4 h3{
+    margin-bottom: 20px;
+}
+
+#vie_para4 p{
+    color: dimgray;
+    text-align: justify;
+}
+
+#bd img{
+    width: 100px;
+    height: auto;
+}
+#bd .moyen{
+    width: 200px;
+    height: auto;
+}
+
+#bd .petit{
+    width:70px;
+    height: auto;
+}
+
+#bd .marge{
+    margin-left:40px;
+}
+
+#bd #spe2{
+    margin-left: 10px;
+}
+
+#bd{
+    min-height: 80px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+#bd h1{
+    color:dimgray;
+    font-size: 180%;
+}
+
+#liens{
+    min-height: 80px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+#liens h1{
+    color:dimgray;
+    font-size: 180%;    
+}
+
+#liens p a{
+    display: block;
+    float: left;
+    color: white;
+    width: 226px;
+    min-height: 15px;
+    background-color: dimgray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+#liensWiki{
+    float: left;
+    width: 50px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#lienHki{
+    float: left;
+    width: 40px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#lettreA,
+#lettreD,
+#lettreH{
+    margin-left:5px;
+    width: 20px;
+    height: auto;
+    margin-top: 45px;
+}
+
+#lettreH{
+    width: 16px;
+    height: auto;
+    margin-bottom: 2px;
+}
+
+#lettreA{
+    margin-left: 70px;
+}
+
+#lettreO,
+#lettreR,
+#lettreT{
+    margin-left: 10px;
+    width: 20px;
+    height: auto;
+    margin-top: 5px;
+    float: left;
+}
+
+#lettreR{
+    width: 14px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+#lettreO{
+    margin-left: 120px;
+}
+
+#lettreN{
+    width: 31px;
+    height: auto;
+    margin-top: 18px;
+    float: left;
+    margin-left: 340px;
+}
+#lettreS{
+    margin-left: 10px;
+    width: 18px;
+    height: auto;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    float: left;
+}
+
+#lettreE,
+#lettreF,
+#lettreC{
+    height: 40px;
+    width: auto;
+    margin-left: 5px;
+}
+
+
+
+#lettreE{
+    margin-left: 350px;
+}

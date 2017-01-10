@@ -1,0 +1,81 @@
+<!DOCTYPE html>   
+<html lang="fr">
+<head>
+  <title>Les éléments Blocks et Inline</title>
+  <meta charset="UTF-8">
+	<style>
+	body{
+		margin: 0;
+		background-color: #333333;
+	}
+	
+	#conteneur{
+		background-color: red;
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		min-height: 400px;
+	}
+	
+	header{
+		background-color: blue;
+		height: 170px;
+	}
+	
+	main{
+		width : 960px;
+		min-height : 1100px;
+		background-color : yellow;
+		padding-top : 22px;
+	}
+	
+	aside{
+		width : 202px;
+		min-height : 840px;
+		background-color : lightgrey;
+		margin-left : 20px;
+		float : left;
+	}
+	
+	article{
+		width : 506px;
+		min-height : 1100px;
+		background-color : orange;
+		float : left;
+	}
+	
+	#col2{
+		width : 212px;
+		min-height : 1055px;
+		background-color : lightgrey;
+		float : left;
+	}
+	
+	.clear{
+		clear : both;
+	}
+	
+	footer{
+		width : 960px;
+		min-height : 73px;
+		background-color : lightblue;
+	}
+	
+	
+
+	</style>
+  
+</head>
+<body>
+	<div id="conteneur">
+		<header></header>
+		<main>
+			<aside></aside>
+			<article></article>
+			<div id="col2"></div>
+			<div class="clear"></div>
+		</main>
+		<footer></footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@font-face{
+	font-family: rubik;
+	src: url("../polices/Rubik-Regular.ttf");
+}
+
+@font-face{
+	font-family : rubikLight;
+	src:  url("../polices/Rubik-Light.ttf");
+}
+
+body{
+	margin: 0;
+	font-family : rubik, courier, sans-serif;
+	background-image : url("../images/identite-visuelle.jpg");
+}
+
+#conteneur{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 200px;
+}
+
+header{
+	height: 170px;
+}
+
+main{
+	width : 920px;
+	min-height : 100px;
+    padding: 20px;
+    background-image: url("../images/fondhk.jpg");
+}
+
+aside{
+	width : 182px;
+	min-height : 240px;
+	float : left;
+}
+
+article{
+	width : 516px;
+    min-height : 100%;
+	float : left;
+    padding:20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#col2{
+    width : 182px;
+	min-height : 100px;
+	float : left;
+}
+
+.clear{
+	clear : both;
+}
+
+footer{
+	width : 960px;
+	min-height : 73px;
+}

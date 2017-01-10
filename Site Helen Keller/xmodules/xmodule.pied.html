@@ -1,0 +1,91 @@
+<!DOCTYPE html>   
+<html lang="fr">
+<head>
+  <title>Les éléments Blocks et Inline</title>
+  <meta charset="UTF-8">
+	<style>
+	@font-face{
+		font-family: "rubik";
+		src: url("polices/Rubik-Regular.ttf");
+	}
+
+	@font-face{
+		font-family : "rubikLight";
+		src:  url("polices/Rubik-Light.ttf");
+	}
+	body{
+		margin: 0;
+		background-color: #333333;
+	}
+	
+	footer{
+		font-family : rubik, arial, sans-serif;
+		font-weight : bold;
+		width : 960px;
+		min-height :50px;
+		background-color : white;
+		margin-left : auto;
+		margin-right : auto;
+		padding-top : 23px;
+		
+	}
+	
+	#conteneur_orange{
+		min-height : 42px;
+		background-color : #f9ae74;
+		padding-top : 10px;
+		padding-left : 240px;
+	
+	}
+	
+	p{
+		width : 242px;
+		min-height : 27px;
+		margin : 0;
+		padding : 0;
+		color : black;
+		background-color : white;
+		display : inline-block;
+		margin : auto;
+		text-align : center;
+		padding-top : 5px;
+	}
+	
+	a,
+	a:link,
+	a:visited,
+	a:active,
+	a:hover{
+	
+		color : black;
+		background-color : white;
+		text-decoration : none;
+	}
+	
+	a:hover p{
+		background-color : black;
+		color : white;
+		font-weight : bold;
+	}
+
+
+	</style>
+  
+</head>
+<body>
+	<div id="conteneur">
+		<header></header>
+		<main>
+			<aside></aside>
+			<article></article>
+			<div id="col2"></div>
+			<div class="clear"></div>
+		</main>
+		<footer>
+			<div id="conteneur_orange">
+				<a href=""><p>Mentions légales </p></a><a href=""><p>Contact</p></a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

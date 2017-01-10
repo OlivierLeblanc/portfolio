@@ -1,0 +1,64 @@
+@font-face{
+	font-family: rubik;
+	src: url("../polices/Rubik-Regular.ttf");
+}
+
+@font-face{
+	font-family : rubikLight;
+	src:  url("../polices/Rubik-Light.ttf");
+}
+
+body{
+	margin: 0;
+	background-image : url("images/fondhk.jpg");
+	background-repeat : repeat;
+}
+
+footer{
+	font-family : rubik, arial, sans-serif;
+	font-weight : bold;
+	width : 960px;
+	min-height :50px;
+	background-color : white;
+	margin-left : auto;
+	margin-right : auto;
+	padding-top : 23px;
+	
+}
+
+#conteneur_orange{
+	min-height : 42px;
+	background-color : black;
+	padding-top : 10px;
+	padding-left : 240px;
+
+}
+
+footer p{
+	width : 242px;
+	min-height : 27px;
+	margin : 0;
+	padding : 0;
+	color : black;
+	background-color : white;
+	display : inline-block;
+	margin : auto;
+	text-align : center;
+	padding-top : 5px;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:hover{
+
+	color : black;
+	background-color : white;
+	text-decoration : none;
+}
+
+a:hover p{
+	background-color : black;
+	color : white;
+}
