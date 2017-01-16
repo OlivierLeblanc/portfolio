@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<title>Hotel du Nord</title>
+	<meta charset="UTF-8">
+	<link href="styles/structure.css" rel="stylesheet">
+    <link href="styles/entete.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+    <link href="styles/GENERALE.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <a href="index.html">
+                <div id="logo">
+                    <div class="ligne_verticale" ></div>
+                    <h1>Hôtel</h1>
+                    <h1>du Grand</h1>
+                    <div id="nord">
+                        <h1>Nord</h1>
+                        <img src="images/black-star.png" alt="etoile">
+                        <img src="images/black-star.png" alt="etoile">
+                        <img src="images/black-star.png" alt="etoile">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </a>
+            
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>
+            
+            
+
+            <nav>
+                <ul>
+					<a href="index.html"><li>Accueil</li></a>
+					<a href="decouvrir.html"><li>Découvrir</li></a>
+					<a href="chambres.html"><li>Chambres</li></a>
+					<a href="restaurant.html"><li>Restaurant</li></a>
+					<a href="conference.html"><li>Conférences</li></a>
+					<a href="chambres.html"><li>Réserver</li></a>
+				</ul>
+            </nav>
+            <div class="clear"></div>
+        </header>
+        
+        <div class="menu">
+            <ul>
+                <a href="#"><li>ACCUEIL</li></a>
+                <a href="#"><li>DÉCOUVRIR</li></a>
+                <a href="#"><li>CHAMBRES</li></a>
+                <a href="#"><li>RESTAURANT</li></a>
+                <a href="#"><li>CONFÉRENCES</li></a>
+            </ul>
+        </div>
+        
+        
+        
+        <main>
+            <div id="ligne1">
+                <div id="bloc1">
+                    <img src="images/phototest.jpg" alt="test">
+                </div>
+                <div id="bloc2">
+                    <h1>HÔTEL</br>URBAIN</br>DE</br>LUXE</h1>
+                </div>
+                <div id="bloc3">
+                    <h2>Nos valeurs | Notre équipe</h2>
+                    <p>Notre établissement a mis en place une charte de qualité, dans un souci constant d'améliorer ses services, et où la satisfaction de notre clientèle est au coeur de notre démarche</p>
+                    <p>Notre personnel est sélectionné et formé pour répondre au meilleur de notre engagement : votre entière satisfaction !</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="ligne2">
+                <div id="conteneur1">
+                    <div id="img2">
+                        <div id="imgSpe">
+                            <img src="images/vue_exterieure2.jpg" alt="test">
+                            <p>Vue façade nord,</br>rue Léon Frot</p>
+                        </div>
+                    </div>
+                    <div id="img3">
+                        <img src="images/tablette.jpg" alt="test">
+                    </div>
+                    <div class="clear"></div>
+                    <div id="img4">
+                        <img src="images/voiture.jpg" alt="test">
+                        <p>bjhzevf qkvb</p>
+                    </div>
+                    <div id="img5">
+                        <img src="images/detail_arriere.jpg" alt="test">
+                        <p>bjhzevf qkvb</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div id="conteneur2">
+                    <img src="images/vue_exterieur.jpg" alt="test">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="ligne3">
+                <div id="conteneur3">
+                    <img src="images/bar3.jpg" alt="test">
+                </div>
+                <div id="conteneur4">
+                    <div id="img6">
+                        <img src="images/spa3.jpg" alt="test">
+                    </div>
+                    <div id="img7">
+                        <img src="images/entree.jpg" alt="test">
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            
+            
+            
+            
+        </main>
+        
+        
+        
+        <footer>
+            <div id="cartouche">
+                <p>47, Rue Albert Thomas</br>75010 Paris, France | <strong>01 42 24 22 84</strong></p>
+                <div id="liensReseau">
+                    <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter"></a>
+                    <a href="https://www.tripadvisor.fr/Restaurant_Review-g187199-d8651120-Reviews-L_entracte-Saumur_Maine_et_Loire_Pays_de_la_Loire.html"><img src="images/tripadvisor.png" alt="tripadvisor"></a>
+                    <a href="https://www.facebook.com/"><img src="images/fb.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram"></a>
+                    <div id="trait_vertical"></div>
+                    <a href="chambres.html"><button id="contact">Nous contacter</button></a>
+                    <div class="clear"></div>
+                </div>
+                <div id="signature">
+                    <p>© 2017 par Hotel du Grand Nord  <a href="patience.html">olivierLeblanc.design</a></p>
+                </div>
+            </div>
+            
+            <div id="newsLetter">
+                <p>Inscrivez-vous à notre liste de diffusion</p>
+                <input type="text" name="adresseMail" placeholder=" Adresse Email..."/>
+                <a href="chambres.html"><button id="abonne">S'abonner maintenant</button></a>
+                <div class="clear"></div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        $( ".cross" ).hide();
+        $( ".menu" ).hide();
+        $( ".hamburger" ).click(function() {
+        $( ".menu" ).slideToggle( "slow", function() {
+        $( ".hamburger" ).hide();
+        $( ".cross" ).show();
+        });
+        });
+
+        $( ".cross" ).click(function() {
+        $( ".menu" ).slideToggle( "slow", function() {
+        $( ".cross" ).hide();
+        $( ".hamburger" ).show();
+        });
+        });
+    </script>
+</body>
+</html>
